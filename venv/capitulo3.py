@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("Resources/shapes.png")
+img = cv2.imread("../recursos/shapes.png")
 print(img.shape)
 
 imgResize = cv2.resize(img,(1000,500))
